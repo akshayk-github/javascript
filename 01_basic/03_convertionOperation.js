@@ -1,0 +1,41 @@
+let score = "32abc";
+score = null
+score = undefined
+// score = true
+
+// console.log(score);
+// console.log(typeof score);
+
+
+// let convertNumber = Number(score)
+// console.log(typeof convertNumber);
+// console.log(convertNumber);
+
+
+// "32" => 32
+// "32abc" => NaN
+// true => 1; false => 0
+// null => 0
+// undefined => NaN
+
+
+let isloggedIn = "akshay"
+
+// let booleanLog = Boolean(isloggedIn)
+// console.log(typeof booleanLog);
+// console.log(booleanLog);
+
+
+// 1 => true; 0 => false
+// "" => false
+// "akshay" => true
+// null => false
+// undefined => false
+
+
+
+let someNumber = 32
+
+let convertString = String(someNumber)
+console.log(typeof convertString);
+console.log(convertString);
