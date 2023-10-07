@@ -36,6 +36,19 @@ let isloggedIn = "akshay"
 
 let someNumber = 32
 
-let convertString = String(someNumber)
-console.log(typeof convertString);
-console.log(convertString);
+// let convertString = String(someNumber)
+// console.log(typeof convertString);
+// console.log(convertString);
+
+
+let value = -2
+let negvalue = +value
+console.log(negvalue);
+
+console.log(1+2+"3");
+console.log(1+2+"3"+33);
+
+gamecounter = 100
+gamecounter++
+// ++gamecounter
+console.log(gamecounter);
