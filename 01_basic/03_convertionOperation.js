@@ -13,7 +13,7 @@ score = undefined
 
 
 // "32" => 32
-// "32abc" => NaN
+// "32abc" => NaN => type - number
 // true => 1; false => 0
 // null => 0
 // undefined => NaN
@@ -41,9 +41,19 @@ let someNumber = 32
 // console.log(convertString);
 
 
+// ******************************* oprations *******************************
+
+
 let value = -2
 let negvalue = +value
 console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2**4);
+// console.log(2%3);
 
 console.log(1+2+"3");
 console.log(1+2+"3"+33);
